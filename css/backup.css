@@ -1,0 +1,94 @@
+body{
+
+  font-family: 'Sintony', sans-serif;
+   color: #fff;
+   
+ 
+ }
+ header{
+   background: rgb(237,97,136);
+   background: linear-gradient(90deg, rgba(237,97,136,1) 0%, rgba(233,112,172,1) 73%, rgba(233,134,221,1) 100%);
+   height: 100vh;
+   font-family: 'Poppins', sans-serif;
+ 
+ }
+ .brand{
+   color: #f2789a;
+   font-weight: bold;
+   font-size: 1.5rem;
+ 
+ }
+ .brand:hover{
+   color: #fff;
+   transition: ease-in-out 0.7s;
+ }
+ 
+ 
+ .presentation{
+   /* margin-top: 30%; */
+   width: 60%;
+ }
+ .presentation h1{
+   font-weight: bold;
+   text-align: left;
+   line-height: 1.2;
+   font-size: 14vw;
+   color: #fff;
+ }
+ .presentation span{
+   font-size: 19px;
+  
+ }
+ 
+ 
+ /* PROJETOS */
+ .jobs{
+   padding-top: 4%;
+   color: #3C3D49;
+   word-wrap: break-word; 
+ }
+ .jobs h2{
+   font-weight: bold;
+   line-height: 1.5;
+ }
+ .jobs h3{
+   font-size: 2rem;
+   font-weight: bold;
+   color:#EC6694;
+  text-transform: uppercase;
+ }
+ .jobs p{
+  font-size: 17px;
+ 
+ }
+ .description{
+   float: left;
+   width: 100%;
+   margin-top: 15%;
+   word-wrap: break-word; 
+ 
+ }
+ 
+ .jobs img{
+   width: 100%;
+ }
+ 
+ .btn-project{
+   border-bottom: 1px solid #EC6694;
+   padding: 8px;
+   border-radius: 5px;
+   color: #EC6694;
+ }
+ 
+ .btn-project:hover{
+   background:#EC6694;
+   color: #fff;
+   transition: ease-in 0.3s;
+ 
+ }
+ 
+ /* FOOTER */
+ 
+ footer p{
+   font-weight: 600;
+ }

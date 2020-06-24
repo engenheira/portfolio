@@ -1,0 +1,151 @@
+body{
+ font-family: 'Sintony', sans-serif;
+color: #fff;
+  
+
+}
+header{
+  /* to indecisa nas cores, amo laranja, mas acho que vou deixar o azul mesmo */
+  /* background: rgb(238,123,96);
+  background: linear-gradient(90deg, rgba(238,123,96,1) 0%, rgba(243,142,90,1) 73%, rgba(255,165,89,1) 100%); */
+  background: rgb(23,208,167);
+  background: linear-gradient(90deg, rgba(23,208,167,1) 0%, rgba(76,221,180,1) 73%, rgba(168,245,203,1) 100%);
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+
+}
+.brand{
+  color: rgb(26, 228, 184);
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+.brand:hover{
+  color: #fff;
+  transition: ease-in-out 0.7s;
+}
+
+
+.presentation{
+  /* margin-top: 30%; */
+  width: 60%;
+}
+.presentation h1{
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.2;
+  font-size: 10rem;
+  color: #fff;
+}
+.presentation span{
+  font-size: 19px;
+ 
+}
+
+
+/* PROJETOS */
+.jobs{
+  padding-top: 4%;
+  color: #3C3D49;
+  word-wrap: break-word; 
+}
+.jobs h2{
+  font-weight: bold;
+  line-height: 1.5;
+}
+.jobs h3{
+  font-size: 2rem;
+  font-weight: bold;
+  color:#39D8AF;
+ text-transform: uppercase;
+}
+.jobs p{
+ font-size: 17px;
+
+}
+.description{
+  float: left;
+  width: 100%;
+  margin-top: 15%;
+  word-wrap: break-word; 
+
+}
+
+.jobs img{
+  width: 100%;
+}
+
+.btn-project{
+  border-bottom: 1px solid #39D8AF;
+  padding: 8px;
+  border-radius: 5px;
+  color: #39D8AF;
+}
+.icon-github{
+  color: #39D8AF;
+  opacity: 0.5;
+  font-size: 19px;
+}
+.icon-github:hover{
+  color: #39D8AF;
+  opacity: 0.9;
+  transition: ease-in-out 0.2s;
+}
+.btn-project:hover{
+  background:#39D8AF;
+  color: #fff;
+  transition: ease-in 0.3s;
+
+}
+
+/* FOOTER */
+
+footer p{
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.icones{
+  margin: 0 auto;
+  text-align: center;
+  color: #3C3D49;
+  padding-bottom: -4px;
+}
+
+.icones ul{
+  list-style: none;
+}
+
+.icones ul li{
+  display: inline;
+}
+.icones ul li a{
+  color: rgb(202, 202, 209);
+  padding: 0px 7px;
+  font-size: 16px;
+}
+.icones ul li a:hover{
+  color: #39D8AF;
+  transition: ease-in 0.3s;
+}
+
+
+
+/* MODAL */
+.modalContato{
+  color: #39D8AF;
+}
+.modalContato span{
+  color: #3C3D49;
+  opacity: 0.4;
+}
+
+.btnModal{
+  background: #39D8AF;
+  border: none;
+}
+.btnModal:hover{
+  background: rgb(20, 177, 143);
+}
+
+/* to ouvindo umas músicas até legais, não vou esquecer de salvar  */
